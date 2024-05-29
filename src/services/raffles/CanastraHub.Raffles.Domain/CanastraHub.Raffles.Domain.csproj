@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\building-blocks\CanastraHub.Core\CanastraHub.Core.csproj" />
+  </ItemGroup>
+
 </Project>
