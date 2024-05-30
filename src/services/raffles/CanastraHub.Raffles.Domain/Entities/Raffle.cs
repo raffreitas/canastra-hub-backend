@@ -4,8 +4,6 @@ using CanastraHub.Core.Exceptions;
 namespace CanastraHub.Raffles.Domain.Entities;
 public class Raffle : Entity, IAggregateRoot
 {
-    private static readonly Random _random = new();
-
     public string Title { get; private set; }
     public string Description { get; private set; }
     public decimal QuotaUnitPrice { get; private set; }
@@ -13,7 +11,7 @@ public class Raffle : Entity, IAggregateRoot
     public DateTime EndDate { get; private set; }
     public bool IsActive => StartDate <= DateTime.UtcNow && EndDate >= DateTime.UtcNow;
 
-    private IList<Participant> _participants = [];
+    private readonly IList<Participant> _participants = [];
     public IReadOnlyCollection<Participant> Participants => _participants.AsReadOnly();
 
     private readonly IList<Quota> _quotas = [];
