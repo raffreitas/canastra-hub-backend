@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanastraHub.Events.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanastraHub.Events.Infrastrucure", "src\services\events\CanastraHub.Events.Infrastrucure\CanastraHub.Events.Infrastrucure.csproj", "{4E91D844-EE17-40DE-9729-94445A1F740C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanastraHub.Events.Api", "src\services\events\CanastraHub.Events.Api\CanastraHub.Events.Api.csproj", "{B8F895CA-414C-458E-A443-F52BA22D63F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4E91D844-EE17-40DE-9729-94445A1F740C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E91D844-EE17-40DE-9729-94445A1F740C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E91D844-EE17-40DE-9729-94445A1F740C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F895CA-414C-458E-A443-F52BA22D63F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F895CA-414C-458E-A443-F52BA22D63F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F895CA-414C-458E-A443-F52BA22D63F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F895CA-414C-458E-A443-F52BA22D63F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{87D13090-4214-42FB-8C82-5BEE6199EA2E} = {7B95D110-E75D-4984-8BCB-4286E74CC98A}
 		{3DBD3B91-399E-4965-9F4D-3A3EF60D86A4} = {7B95D110-E75D-4984-8BCB-4286E74CC98A}
 		{4E91D844-EE17-40DE-9729-94445A1F740C} = {7B95D110-E75D-4984-8BCB-4286E74CC98A}
+		{B8F895CA-414C-458E-A443-F52BA22D63F3} = {7B95D110-E75D-4984-8BCB-4286E74CC98A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39480FA2-9590-4191-AE6C-01063D586C20}
